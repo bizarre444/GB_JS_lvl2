@@ -1,0 +1,7 @@
+{
+   "gallery_img" : [
+	   {"src" : "images/dawn.jpg", "alt" : "Закат"},
+	   {"src" : "images/forest.jpg", "alt" : "Лес"},
+	   {"src" : "images/orange.jpg", "alt" : "Апельсин"}
+   ]
+}
