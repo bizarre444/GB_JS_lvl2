@@ -36,27 +36,26 @@ Menu.prototype.render = function() {
 	return result;
 };
 
-
-
-function MenuItem(my_href, my_name) {
+function MenuItem(my_href, my_name, my_items) {
    Container.call(this);
    this.className = "menu-item";
    this.href = my_href;
    this.itemName = my_name;
+    this.my_items = my_items;
 };
 
 function SubMenu(myId, myClass, items) {
 	Menu.call(this);
 };
 
+SubMenu.prototype = Object.create(Container.prototype);
+SubMenu.prototype.constructor = SubMenu;
+
 Menu.prototype.remove = function() {
 	var del = document.getElementById(this.id);
-	console.log(del);
 	del.parentNode.removeChild(del);
 };
 
-SubMenu.prototype = Object.create(Menu.prototype);
-SubMenu.prototype.constructor = SubMenu;
 
 MenuItem.prototype = Object.create(Container.prototype);
 MenuItem.prototype.constructor = MenuItem;
