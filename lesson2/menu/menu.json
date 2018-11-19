@@ -1,0 +1,16 @@
+{
+   "menu_items" : [
+	   {"href" : "/home", "title" : "Личный кабинет", "submenu": [
+	   		{"href": "#", "title": "Персональная информация"},
+	   		{"href": "#", "title": "Сохраненное"}
+	   	]},
+	   {"href" : "/catalogue/", "title" : "Каталог"},
+	   {"href" : "/gallery/", "title" : "Промоакции"},
+	   {"href" : "/news/", "title" : "Новости", "submenu": [
+	   		{"href": "#", "title": "Правила доставки"},
+    		{"href": "#", "title": "Получение товара"}
+    	]}
+   ]
+}
+
+
