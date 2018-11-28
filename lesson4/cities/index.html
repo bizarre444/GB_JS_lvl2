@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="forma">
+        <form id="first">
+            <fieldset>
+                <legend>Форма регистрации:</legend>
+                    <label for="name">Введите имя:</label>
+                    <input type="text" name="name" id="name" value="" required><div id="error"></div>
+                    <label for="email">Введите email:</label>
+                    <input type="email" name="email" id="email" value="" required><div id="error2"></div>
+                    <label for="phone">Введите номер телефона:</label>
+                    <input type="tel" name="phone" id="phone" value="" required><div id="error3"></div>
+                    <label for="city">Введите город:</label>
+                    <select name="city" id="city"></select>
+                    <div class="submit">
+                      <input type="submit" id="button" name="Отправить">
+                    </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="engine1.js" type="text/javascript"></script>
+</body>
+</html>

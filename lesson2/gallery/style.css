@@ -1,0 +1,12 @@
+.gallery {
+	min-height: 650px;
+	border: 2px dashed red;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+img {
+	height: 250px;
+	margin: 25px;
+}
