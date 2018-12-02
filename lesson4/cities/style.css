@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAFA;
+}
+.forma {
+    width: 500px;
+    height: 150px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: end;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    background-color: #FFF5EE;
+    padding-left: 5px;
+}
+#error, #error2, #error3 {
+    color: red;
+    font-size: 15px;
+    text-align: left;
+}
+.submit {
+    width: 100px;
+    font-size: 25px;
+}

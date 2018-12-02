@@ -1,0 +1,18 @@
+.good, #basket_wrapper {
+	width: 150px;
+	height: 150px;
+	background-color: #7FFFD4;
+	border: 1px solid black;
+	text-align: center;
+    padding: 5px;
+}
+
+p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.buyme, .deleteme {
+	border: 1px solid #6495ED;
+	background-color: #6495ED;
+}
