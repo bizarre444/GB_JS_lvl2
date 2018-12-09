@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+	<div class="forms">
+		<div id="form_div">
+		<label for="name">Введите имя:</label>
+			<input type="text" name="name" id="name" value="" required>
+		</div>
+		<!--Диалоговое окно, сложное -->
+		<div id="dialog-confirm" title="Может попытаемся ввести еще раз, но правильно?">
+			<p>
+				<span class="ui-icon ui-icon-alert"></span>
+				Имя должно содержать только русские или латинские буквы. 
+			</p>
+		</div>
+
+		<div id="form_div">
+			<label for="datepicker">Введите дату рождения:</label>
+				<input type="text" name="datepicker" id="datepicker" value="" required>
+		</div>
+		<div id="form_div">
+			<input type="submit" id="button" name="Отправить">
+		</div>
+	</div>
+	
+	<div class="container">                            
+        <ul class="carousel">                 
+            <li>1</li>                    
+            <li>2</li>                    
+            <li>3</li>                    
+            <li>4</li>                    
+            <li>5</li>                    
+			<li>6</li>
+        </ul>                                 
+    </div>    
+
+    <div class="addBasket">
+    	<div class="tovar_1 colorTovar" id="tovar_1">Товар 1</div>
+    	<div class="basket colorBasket" id="basket">Корзина</div>
+    </div>
+    
+
+	
+
+	<script src="engine.js"></script>
+</body>
+</html>
